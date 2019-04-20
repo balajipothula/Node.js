@@ -15,7 +15,7 @@ source ~/.profile
 nvm ls-remote
 
 #### Node.js v8.10.0 installation with NVM.
-#### Note: AWS Lambda Supports Node.js v8.10 and 6.10
+#### Note: AWS Lambda Supports Node.js v8.10 and v6.10
 nvm install v8.10.0
 
 #### Listing installed Node.js
