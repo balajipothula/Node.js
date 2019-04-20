@@ -34,7 +34,7 @@ nvm run v8.10.0 app.js
 #### Running applition with specific Node.js version as a "daemon".
 nvm run v8.10.0 app.js &
 
-#### Killing Node.js "daemon"
+#### Killing Node.js "daemon".
 pkill -f node
 
 #### Removing unused Node.js version(s) if installed.
