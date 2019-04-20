@@ -30,9 +30,13 @@ node -v
 #### Running applition with specific Node.js version.
 #### Note: Please look at app.js file and open port 8585.
 nvm run v8.10.0 app.js
+#### Alternate way to run app.js
+node app.js
 
 #### Running applition with specific Node.js version as a "daemon".
 nvm run v8.10.0 app.js &
+#### Alternate way to run app.js as a "daemon".
+node app.js
 
 #### Killing Node.js "daemon".
 pkill -f node
