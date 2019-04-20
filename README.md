@@ -29,7 +29,7 @@ node -v
 
 #### Running applition with specific Node.js version.
 #### Note: Please look at app8585.js file and open Port 8585.
-nvm run v8.10.0 app.js
+nvm run v8.10.0 app8585.js
 #### Alternate way to run app8585.js
 node app8585.js
 
@@ -44,8 +44,8 @@ pkill -f node
 #### Removing unused Node.js version(s) if installed.
 nvm remove v10.15.0
 
-## Bonus information :)
-#### Soft linking node(Node.js) to /usr/bin/node.
+## Bonus information :) enjoy
+#### Soft linking node(Node.js) to /usr/bin/node
 sudo ln -s $HOME/.nvm/versions/node/v8.10.0/bin/node /usr/bin/node
 
 #### Running Node.js applition on Port 80 as a "daemon".
