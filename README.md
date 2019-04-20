@@ -31,5 +31,8 @@ node -v
 #### Note: Please look at app.js file and open port 8585.
 nvm run v8.10.0 app.js
 
+#### Running applition with specific Node.js version as a "daemon".
+nvm run v8.10.0 app.js &
+
 #### Removing unused Node.js version(s) if installed.
 nvm remove v10.15.0
