@@ -28,6 +28,7 @@ nvm use v8.10.0
 node -v
 
 #### Running applition with specific Node.js version.
+#### Note: Please look at app.js file and open port 8585.
 nvm run v8.10.0 app.js
 
 #### Removing unused Node.js version(s) if installed.
