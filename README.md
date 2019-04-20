@@ -1,6 +1,6 @@
 ## Node.js
 
-### Author: BALAJI POTHULA balaji.pothula@techie.com
+### Author: BALAJI POTHULA *balaji.pothula@techie.com*
 
 #### Updating Ubuntu Software list.
 sudo apt update
