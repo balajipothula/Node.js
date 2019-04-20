@@ -8,7 +8,7 @@ curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 # Reloading system environment.
 source ~/.profile
 
-# Finding available Node.js version
+# Finding available Node.js versions.
 nvm ls-remote
 
 # Node.js v8.10.0 installation with NVM.
@@ -18,7 +18,7 @@ nvm install v8.10.0
 # Listing installed Node.js
 nvm list
 
-# Setting v8.10.0 as default Node.js version.
+# Setting Node.js v8.10.0 as default version.
 nvm use v8.10.0
 
 # Verifying current active version of Node.js
