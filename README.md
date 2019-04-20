@@ -21,6 +21,9 @@ nvm install v8.10.0
 #### Listing installed Node.js
 nvm list
 
+#### Soft linking node(Node.js) to /usr/bin/node.
+sudo ln -s $HOME/.nvm/versions/node/v8.10.0/bin/node /usr/bin/node
+
 #### Setting Node.js v8.10.0 as default version.
 nvm use v8.10.0
 
@@ -43,3 +46,5 @@ pkill -f node
 
 #### Removing unused Node.js version(s) if installed.
 nvm remove v10.15.0
+
+
