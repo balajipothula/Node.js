@@ -9,6 +9,11 @@ tar xzf node.js-8.14.0.docker.tar.gz
 ##### Installing "docker" on Ubuntu.
 sudo sh install-docker.sh
 
+##### Adding current user to "docker" group.
+##### Running docker as non-sudoer.
+##### Note: Reboot required.
+sudo usermod -a -G docker $USER
+
 ##### Pulling image from Docker Hub.
 docker pull balajipothula/node.js:8.14.0
 
