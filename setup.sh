@@ -33,3 +33,15 @@ apt update
 # installing latest version of docker ce.
 apt -y install docker-ce docker-ce-cli containerd.io
 
+# extracting "webapp" tar ball and removing.
+tar xzf $HOME/node.js-8.14.0/webapp.tar.gz -C $HOME/node.js-8.14.0/ && rm $HOME/node.js-8.14.0/webapp.tar.gz
+
+# pulling node.js-8.14.0 image from docker hub.
+docker pull balajipothula/node.js:8.14.0
+
+# running docker container with name(--name) "nodejs" as daemon(-d),
+# stdin(-i) with volume(-v) "webapp" on port(-p) "3000".
+docker run --name nodejs -d -i -p 3000:3000 --privileged -v $HOME/node.js-8.14.0/webapp:/webapp balajipothula/node.js:8.14.0 sh
+
+# executing docker container by name with stdin(-i), starting node.js server.
+docker exec -i nodejs node /webapp/index.js &
